@@ -1,0 +1,19 @@
+{
+  "name": "fybe-docs",
+  "version": "0.0.1",
+  "description": "Fybe Product Documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": "support@fybe.com"
+  },
+  "repository": "/docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.9"
+  }
+}
