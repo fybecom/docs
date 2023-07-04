@@ -32,6 +32,6 @@ jobs:
         with:
           fqdn: docs.fybe.com
           target_branch: gh-pages
-          build_dir: build
+          build_dir: src/.vuepress/dist/
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
